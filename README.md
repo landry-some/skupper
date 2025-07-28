@@ -4,7 +4,7 @@ Skupper allows you to create a Virtual Application Network (VAN) enabling secure
 communication between systems including public cloud, private cloud, virtual machines (VMs),
 bare metal hosts, and mainframes.
 
-Version 1 of Skupper, [v1 branch](https://github.com/skupperproject/skupper/tree/v1) is working in many production 
+Version 1 of Skupper, [v1 branch](https://github.com/landry-some/skupper/tree/v1) is working in many production 
 environments and has significantly reduced the time, effort and expense of deploying applications to a hybrid multicloud.
 
 The main branch focuses on the development of the upcoming major release of the Skupper project based on feedback from 
@@ -34,18 +34,3 @@ Skupper v2 sites are not interoperable with v1 sites. The plan is to provide too
 migrate their v1 installations to a v2 deployment as the release approaches.
 
 Skupper v1 will continue to be maintained but no new significant features are planned.
-
-# Useful Links
-Using Skupper v2
-
-* [Simple Declarative Example](https://github.com/skupperproject/skupper/blob/main/cmd/controller/example/README.md)
-* [Network Observer Deployment](https://github.com/skupperproject/skupper/blob/main/cmd/network-observer/README.md)
-* [Redis Example](https://github.com/skupperproject/skupper-example-redis/tree/v2)
-* [CLI Example](https://github.com/skupperproject/skupper/blob/main/cmd/skupper/README.md)
-* [Helm Charts](https://github.com/skupperproject/skupper/blob/main/charts/README.md)
-
-# Questions and Feedback
-
-For any questions, feedback or reporting of issues encountered using the v2 preview, please use
-the Skupper community mailing list or create a GitHub issue as described on the Skupper web site
-[community page](https://skupper.io/community/index.html)
